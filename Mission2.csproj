@@ -10,6 +10,10 @@
     <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\bootstrap\css\" />
+    <Folder Include="wwwroot\lib\bootstrap\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
@@ -19,9 +23,12 @@
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\lib\" />
     <Content Remove="wwwroot\lib\jquery\" />
+    <Content Remove="wwwroot\cdd\" />
+    <Content Remove="wwwroot\lib\bootstrap\" />
+    <Content Remove="wwwroot\lib\bootstrap\css\" />
+    <Content Remove="wwwroot\lib\bootstrap\js\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\index.html" />
-    <None Include="wwwroot\img\sunshine.jpeg" />
   </ItemGroup>
 </Project>
