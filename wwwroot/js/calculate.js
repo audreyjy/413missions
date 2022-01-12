@@ -12,7 +12,7 @@ $("#button").click(function () {
     var i = parseFloat($("#intex").val())
 
     // adding inputs together 
-    var x = (a * .55) + (g * .05) + (q * .10) + (e * .20) + (i * .10) 
+    var x = ((a * .55) + (g * .05) + (q * .10) + (e * .20) + (i * .10))
 
 
     // if statement that reads the sum of the inputs and determines the letter grade 
