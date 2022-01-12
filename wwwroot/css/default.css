@@ -1,0 +1,12 @@
+﻿body {
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    background-color: beige; 
+
+}
+
+
+label {
+    font-size: 20px;
+    color: mediumpurple;
+    display: inline-block;
+}

@@ -5,13 +5,14 @@ $("#button").click(function () {
     var grade;
 
     // assigning input to variables and parsing to an integer so they can be added 
-    var a = parseFloat($("#assignments").val()) 
-    var g = parseFloat($("#group").val())
+    var a = parseFloat($("#assignments").val())
+    var g = parseFloat($("#group").val()) 
     var q = parseFloat($("#quizzes").val())
     var e = parseFloat($("#exams").val())
     var i = parseFloat($("#intex").val())
 
-    // adding inputs together 
+    // adding inputs together
+
     var x = ((a * .55) + (g * .05) + (q * .10) + (e * .20) + (i * .10))
 
 
