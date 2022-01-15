@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<!-- Audrey Youngberg, IS 413 -->
+<!-- A simple asp.net application with contents about myself and a grade calculator for IS 413-->
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="icon" type="image/x-icon" href="~/img/favicon.jpeg"> <!-- uses icon -->
+    <link href="~/css/default.css" rel="stylesheet" /> <!-- uses css -->
+    <link href="~/lib/bootstrap/css/bootstrap.bootstrap.min.css" rel="stylesheet" /> <!-- uses bootstrap -->
+</head>
+<body>
+
+    <nav>
+        <a asp-controller="New" asp-action="Index">Home</a>
+        <a asp-controller="New" asp-action="Calculator">Calculator</a>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/bootstrap/js/bootsrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script> <!-- uses jquery -->
+    <script src="~/js/calculate.js"></script>
+</body>
+</html>
