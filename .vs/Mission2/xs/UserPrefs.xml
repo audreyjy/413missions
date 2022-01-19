@@ -1,12 +1,14 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{9C39D471-AA51-43E8-8A52-8AAD9C0FE648}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
       <File FileName="Views/New/Index.cshtml" Line="10" Column="1" />
-      <File FileName="Views/New/Calculator.cshtml" Line="32" Column="45" />
+      <File FileName="Views/New/Calculator.cshtml" Line="34" Column="1" />
       <File FileName="Controllers/NewController.cs" Line="29" Column="59" />
-      <File FileName="Models/CalculatorModel.cs" Line="28" Column="1" />
+      <File FileName="Models/CalculatorModel.cs" Line="9" Column="24" />
       <File FileName="wwwroot/js/calculate.js" Line="1" Column="1" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="24" Column="18" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="26" Column="19" />
+      <File FileName="Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,13 +19,12 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="New" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="js" expanded="True" />
               </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
